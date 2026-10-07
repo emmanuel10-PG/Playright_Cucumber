@@ -1,0 +1,24 @@
+{
+  "default": {
+    "parallel": 2,
+    "paths": [
+      "tests/features"
+    ],
+    "retry": 1,
+    "require": [
+      "test/steps/*.js",
+      "hooks/hooks.js"
+    ],
+    "format": [
+      "progress-bar",
+      [
+        "json",
+        "test-results/cucumber-report.json"
+      ],
+      [
+        "html",
+        "test-results/html-report.html"
+      ]
+    ]
+  }
+}
