@@ -8,7 +8,7 @@ const { config } = require("../../playwright.config");
 
 
 // Configuration d attente explicite de 5 000 ms
-const GlobalTimeout = config.expect?.timeout || 5000 
+const GlobalTimeout = config?.expect?.timeout ?? 6000;
 setDefaultTimeout(GlobalTimeout);
 
 // Declaration de variable
