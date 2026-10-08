@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": { },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@cucumber/cucumber": "^13.3.0",
     "@playwright/test": "^1.63.0",
     "@types/node": "^26.6.4"
+  },
+  "dependencies": {
+    "cucumber-js": "^1.0.0"
   }
 }
