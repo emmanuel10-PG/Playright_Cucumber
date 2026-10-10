@@ -20,7 +20,7 @@ let page;
 BeforeAll(async function (){
 
     // Lancer le navigateur
-    Browser = await chromium.launch({ headless: false });
+    Browser = await chromium.launch({ headless: true });
 
 });
 
